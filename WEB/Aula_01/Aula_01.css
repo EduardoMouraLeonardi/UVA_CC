@@ -1,0 +1,55 @@
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	background-color: green;
+}
+
+.box{
+	width: 280px;
+	min-height: 100px;
+	background-color: red;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#box2{
+	background-color: yellow;
+}
+
+#container{
+	width: 920px;
+	height: auto;
+	margin: auto;
+	background-color: black;
+	display: table;
+}
+
+#topo{
+	width: 920px;
+	height: 35px;
+	background-color: #acfa70;
+	float: left;
+}
+
+#banner{
+	width: 920px;
+	height: 300px;
+	background-color: #007498;
+	float: left;
+}
+
+#conteudo{
+	width: 920px;
+	min-height: 130px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #f17678;
+	float: left;
+}
+
+#rodape{
+	width: 920px;
+	height: 35px;
+	background-color: #e1af36;
+	float: left;
+}
