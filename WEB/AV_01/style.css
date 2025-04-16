@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.menu{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.menu a.active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
