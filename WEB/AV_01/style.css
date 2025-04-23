@@ -76,17 +76,8 @@ body{
     margin: 15px;
     padding: 0px;
 }
-.dudu button{
+.dudu a{
     background-color: #3f0064;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.dudu button:hover{
-    background-color: #a30505;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -106,7 +97,7 @@ body{
 .gustavo img{
     float: right;
     width: 200px;
-    height: 250px;
+    height: 270px;
     object-fit: cover;
     padding: 10px;
     border-radius: 30px;
@@ -132,7 +123,7 @@ body{
     margin: 15px;
     padding: 0px;
 }
-.gustavo button{
+.gustavo a{
     background-color: #3f0064;
     color: white;
     padding: 10px 20px;
@@ -141,15 +132,7 @@ body{
     cursor: pointer;
     font-size: 20px;
 }
-.gustavo button:hover{
-    background-color: #a30505;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-}
+
 .davi{
     padding: 0px;
     margin: 0px;
@@ -187,17 +170,8 @@ body{
     margin: 15px;
     padding: 0px;
 }
-.davi button{
+.davi a{
     background-color: #3f0064;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.davi button:hover{
-    background-color: #a30505;
     color: white;
     padding: 10px 20px;
     border: none;
