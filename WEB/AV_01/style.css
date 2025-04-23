@@ -212,9 +212,27 @@ body{
     display: block;
 }
 .gustavo_sobre{
-    margin: 10px;
     padding: 0px;
-    display: block;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
     
 
+}
+.gustavo_sobre h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gustavo_sobre p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
 }
