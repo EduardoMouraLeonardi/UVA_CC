@@ -287,3 +287,84 @@ body{
     margin: 15px;
     padding: 0px;
 }
+
+
+.projetos{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+}
+.davi_proj{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.davi_proj h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.davi_proj p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+.dudu_proj{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.dudu_proj h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.dudu_proj p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+
+.gustavo_proj{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.gustavo_proj h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.gustavo_proj p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
