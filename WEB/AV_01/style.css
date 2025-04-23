@@ -127,3 +127,57 @@ body{
     
 
 }
+
+
+
+
+.davi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+
+}
+.davi img{
+    float: left;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 30px;
+}
+.davi h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.davi h2{
+    font-size: 25px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.davi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+
+.sobre{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+}
+.gustavo_sobre{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+    
+
+}
