@@ -342,3 +342,82 @@ body{
     margin: 15px;
     padding: 0px;
 }
+
+.novidades{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+}
+.dudu_novi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.dudu_novi h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dudu_novi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+.gustavo_novi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+}
+.gustavo_novi h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gustavo_novi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+.davi_novi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.davi_novi h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.davi_novi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
