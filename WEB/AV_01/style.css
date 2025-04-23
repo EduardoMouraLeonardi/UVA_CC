@@ -228,8 +228,59 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
 .gustavo_sobre p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+
+.dudu_sobre{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+.dudu_sobre h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dudu_sobre p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+
+.davi_sobre{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+.davi_sobre h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.davi_sobre p{
     font-size: 20px;
     color: #fff;
     text-align: left;
