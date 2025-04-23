@@ -1,0 +1,401 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1919;
+}
+
+.sidebar{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.dados {
+    margin: 10px;
+    padding: 0px;
+    display: block;
+    /*flex-wrap: nowrap;*/
+}
+
+.dudu{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+
+;
+}
+.dudu img{
+    float: left;
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 30px;
+}
+.dudu h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.dudu h2{
+    font-size: 25px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.dudu p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+.dudu a{
+    background-color: #3f0064;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.gustavo{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+
+}
+.gustavo img{
+    float: right;
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 30px;
+}
+.gustavo h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+.gustavo h2{
+    font-size: 25px;
+    color: #fff;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+.gustavo p{
+    font-size: 20px;
+    color: #fff;
+    text-align: right;
+    margin: 15px;
+    padding: 0px;
+}
+.gustavo a{
+    background-color: #3f0064;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.davi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+
+}
+.davi img{
+    float: left;
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 30px;
+}
+.davi h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.davi h2{
+    font-size: 25px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.davi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+.davi a{
+    background-color: #3f0064;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sobre{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+}
+.gustavo_sobre{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+.gustavo_sobre h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.gustavo_sobre p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+
+.dudu_sobre{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+.dudu_sobre h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dudu_sobre p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+
+.davi_sobre{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+.davi_sobre h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.davi_sobre p{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 0px;
+}
+
+
+.projetos{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+}
+.davi_proj{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.davi_proj h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.davi_proj p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+.dudu_proj{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.dudu_proj h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.dudu_proj p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+
+.gustavo_proj{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.gustavo_proj h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.gustavo_proj p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+
+.novidades{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+}
+.dudu_novi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.dudu_novi h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dudu_novi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+.gustavo_novi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+}
+.gustavo_novi h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gustavo_novi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}
+.davi_novi{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: auto;
+    
+
+}
+.davi_novi h1{
+    font-size: 40px;
+    
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.davi_novi p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+}

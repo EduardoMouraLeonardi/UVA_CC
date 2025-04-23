@@ -7,6 +7,10 @@ use PHPMailer\PHPMailer\Exception;
 
 $mail = new PHPMailer(true);
 
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$mensagem = $_POST['mensagem'];
+
 try{
     //Server settings
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;    
@@ -26,9 +30,9 @@ try{
     $mail->addAddress('eduardomoura3610@gmail.com', 'Dudu');     //Add a recipient
 
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->Subject = "Nova Respoosta de Contato";
+    $mail->Body    = "O usuario $nome enviou a seguinte mensagem: <br>$mensagem <br>Email do Usuario: $email";
+    $mail->AltBody = "O usuario $nome enviou a seguinte mensagem: n/$mensagem n/Email do Usuario: $email";
    
     $mail->send();
     echo 'Message has been sent';

@@ -421,3 +421,84 @@ body{
     margin: 15px;
     padding: 0px;
 }
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form h1,p{
+    text-align: center;
+    color: #fff;
+}
+
+form label {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin-left: 15px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1b1919;
+    color: #fff;
+    font-size: 16px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #3f0064;
+    outline: none;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form input[type="submit"] {
+    margin-left: 15PX;
+    background-color: #3f0064;
+    color: white;
+    padding: 10px 255px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a30505;
+}
+
+form table{
+    border-collapse: separate;
+    overflow: hidden;
+    white-space: nowrap;
+    table-layout: auto;
+    width: 100%;
+    margin: auto;
+    border: 2px solid  black;
+}
+form tr,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: #fff;
+    font-size: 18px;
+}
+form a{
+    text-align: left;
+    color:aqua
+}
