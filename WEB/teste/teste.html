@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        header button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #fff;
+            color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        header button:hover {
+            background-color: #45a049;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .card .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 10px 0;
+        }
+
+        .card button {
+            padding: 10px 15px;
+            font-size: 14px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card button.edit {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .card button.edit:hover {
+            background-color: #0b7dda;
+        }
+
+        .card button.delete {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .card button.delete:hover {
+            background-color: #da190b;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Product Cards</h1>
+        <button onclick="addCard()">Add New Card</button>
+    </header>
+    <div class="container" id="cardContainer">
+        <div class="card">
+            <h3>Product Name</h3>
+            <p class="price">$99.99</p>
+            <p>Brief description of the product goes here.</p>
+            <button class="edit">Edit</button>
+            <button class="delete" onclick="deleteCard(this)">Delete</button>
+        </div>
+    </div>
+
+    <script>
+        function addCard() {
+            const container = document.getElementById('cardContainer');
+            const newCard = document.createElement('div');
+            newCard.className = 'card';
+            newCard.innerHTML = `
+                <h3>New Product</h3>
+                <p class="price">$0.00</p>
+                <p>New product description.</p>
+                <button class="edit">Edit</button>
+                <button class="delete" onclick="deleteCard(this)">Delete</button>
+            `;
+            container.appendChild(newCard);
+        }
+
+        function deleteCard(button) {
+            const card = button.parentElement;
+            card.remove();
+        }
+    </script>
+</body>
+</html>
