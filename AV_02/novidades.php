@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -56,7 +60,7 @@
 
         <div class="card m-3">
             <div class="card-body">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title"></h4>
                 <p class="card-text">Some example text. Some example text.</p>
                 <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a>

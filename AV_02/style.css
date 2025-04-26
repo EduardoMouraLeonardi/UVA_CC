@@ -1,0 +1,77 @@
+body {
+    background: url(img/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar li a {
+    color: #f6fa00;
+}
+
+.navbar-brand {
+    color: #f6fa00;
+}
+
+.banner-text {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+}
+.single-banner h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	animation: animate 3s infinite alternate;
+	font-family: impact;
+}
+@keyframes animate {
+	0%, 100% {
+		transform: translateY(-6px);
+	}
+	50% {
+		transform: translateY(0);
+	}
+}
+.single-banner p {
+	font-size: 20px;
+	margin-top: 10px;
+}
+.single-banner a {
+	text-decoration: none;
+	display: inline-block;
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 10px 30px;
+	margin-top: 30px;
+	border-radius: 50px;
+	transition: all .5s ease;
+}
+.single-banner a:hover {
+	background: #fff;
+	color: #262626;
+}
+@media (max-width: 600px) {
+	.single-banner h2 {
+		font-size: 30px;
+	}
+	.single-banner p {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.single-banner a {
+		padding: 5px 15px;
+	}
+	.nav-items a {
+		padding: 5px;
+		font-size: 11px;
+	}
+}
+
+#teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
